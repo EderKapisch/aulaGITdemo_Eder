@@ -11,7 +11,17 @@ def plotar_seno_e_cosseno():
     plt.grid()
     plt.legend()
     plt.show()
-    
+
 plotar_seno_e_cosseno()
+# plotar uma exponencial decrescente
+def plotar_exponencial_decrescente():
+    x = np.linspace(-2, 2, 100)
+    y = np.exp(-x)
+    plt.plot(x, y)
+    plt.grid()
+    plt.show()
+    
+plotar_exponencial_decrescente()
+
 
 
